@@ -6,13 +6,12 @@ import { NgIf } from '@angular/common';
 @Component({
   selector: 'my-app',
   standalone: true,
-  imports: [],
-  template: `
-    <h1>Hello from {{ name }}!</h1>
-    <a target="_blank" href="https://angular.io/start">
-      Learn more about Angular
-    </a>
-  `,
+  imports: [
+    // uncomment the next line to see the Angular Language Service
+    // warning in the SecondComponentInThisFile go away.
+    // NgIf
+  ],
+  template: `my-app`,
 })
 export class App {
   name = 'Angular';
